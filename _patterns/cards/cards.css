@@ -40,7 +40,7 @@ dt {
   background-color: var(--color-secondary-light);
 }
 
-.max-height {
+.img-small {
   max-height: 400px;
   max-width: 250px;
 }

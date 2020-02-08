@@ -6,40 +6,84 @@ ogdescription: The case study for the making of an app named LaundroMate.
 ---
 
 <!-- Header -->
-{% pattern cards/card-project-header heading="LaundroMate" subheading="App Design	&#9679; UI/UX" image="/images/laundromate-header.jpg" text="The purpose of this group project was to create a mobile application that worked with a product connected through Bluetooth technology. This project had many components involved. First we had to choose our primary subject which was; Self-Serve Laundry. We then conducted a study to learn our target aundience laundry routine and it's struggles." %}
+<div class="grid">
+  {% pattern cards/card-image-full image="/images/laundromate-header.jpg" alt="LaundroMate Logo" %}
+  {% pattern cards/card-project-head-right title="LaundroMate" client="Apartment building owners<br>& College Residences" type="App Design	&#9679; UI/UX" size="2" date="Februrary 2019 - April 2019" %}
+</div>
 
 <!-- Content -->
-<div>
-  {% pattern cards/card-image-right heading="Research" text="The first step of our assignment was to do some background research on our project. Through this, we learned that there weren't many self-serve laundry apps, which we found odd since the market generates roughly $5 billion in gross revenue annually in the United States. After this, we continued to collect data about this subject by interviewing some of our target audience about their needs and frustrations about self-serve laundry." image="/images/laundromate-research.jpg"%}
+<div class="pad-t-2 pad-b-2">
+  {% pattern cards/card-project-about-s image="/images/laundromate-icon.png" alt="Phone connected to washing machine." intro="LaundroMate is a mobile application made for people that use public washing machines." info="For this project my team had to pick a subject group and conduct a study to find out what type of app/IoT product would benefit this group. The group of people we chose were people who use public laundry facilities." %}
+</div>
+
+<div class="pad-t-2 bg-grey pad-b-2">
+  {% pattern cards/card-project-about-s-btn image="/images/clock-icon.png" alt="Clock icon" intro="Research" info="To find out what kind of app would help people who use public laundry facilities, we sat down with some and asked them about their experience.<br><br><i>With this, we found out that their experiences were:</i><br>• Mediocre<br>• Time Consuming<br>• Inconvenient" link="https://docs.google.com/document/d/1spRQbCdb0tq_oETERzZdHJ9Qj7OU9oztjwAy4pM2JFI/edit?usp=sharing" link-name="Full Research Report" %}
+</div>
+
+<div class="pad-t-2 pad-b-2">
+  {% pattern cards/card-project-about image="/images/washer-dryer.png" alt="Washer + Dryer icon" intro="The Product" info="The smart product created to work in partnership with the app is a 2in1 washer/dryer that is connected to smartphones using the internet. The intention of this product is that apartment buildings and college/university residences would purchase the products for their shared laundry facility. These smart products could increase their revenue coming from the laundry facility since more residents would be inclined to use it since it solves their main concerns." %}
+</div>
+
+<div class="pad-t bg-grey push-0">
+  <h5 class="island push-0">What problems did we solve with LaundroMate?</h5>
+</div>
+
+<div class="pad-b-1-4 bg-grey">
+  {% pattern cards/card-project-about-xs image="/images/resolve-1.png" alt="Reservation icon" intro="Reservation" info="During our study we learned that users were tired of bringing their laundry to the laundry facility when sometimes there's no washer available. We solved this by allowing LaundroMate users to reserve a washing machine from their phone so that they would know the washer availability without leaving their home." %}
+</div>
+
+<div class="pad-b-1-4 bg-grey">
+  {% pattern cards/card-project-about-xs image="/images/resolve-2.png" alt="Reminder List icon" intro="Reminder List" info="During our study we learned that users often forget to bring something with them when going to the laundry facility (ex. laundry detergent). We made an effort to help users by showing a reminder list after they reserve a machine." %}
+</div>
+
+<div class="pad-b-1-4 bg-grey">
+  {% pattern cards/card-project-about-xs image="/images/resolve-3.png" alt="Payment Method icon" intro="Payment Method" info="During our study we learned that users were annoyed about the last of payment options at shared laundry facilities. Machines often only accept one kind of payment such as coins, which can be heavy and annoying to find or a reloadable laundry card which can be lost and can only be loaded in certain increments. We solved this buy allowing users to pay for their laundry right through the app as an in-app purchase were users can select which type of payment they would like to use." %}
+</div>
+
+<div class="pad-b-1-4 bg-grey">
+  {% pattern cards/card-project-about-xs image="/images/resolve-4.png" alt="Theft Prevention icon" intro="Theft Prevention" info="During our study we learned that users are scared their items will be stolen or taken out of the washing machine by someone else. Because of this, designed the washing machines to be locked unless unlocked by the user on the app." %}
+</div>
+
+<div class="pad-b-1-4 bg-grey">
+  {% pattern cards/card-project-about-xs image="/images/resolve-5.png" alt="Notification icon" intro="Notifications" info="During our study we learned that users used different ways of knowing their laundry was ready such as timers or simply going to check. We wanted to make this easier for users, so we connected the timer to the app and now users will receive a notification to let them know when their laundry is ready." %}
+</div>
+
+<div class="pad-t push-0">
+  <h3 class="island purple push-0">The App</h3>
+</div>
+
+<div class="pad-b">
+  <h5 class="island push-0">Location Configuration</h5>
+  <img class="img-flex" src="/images/laundromate-location-config.jpg" alt="LaundroMate location configuration screens">
+</div>
+
+<div class="pad-b">
+  <h5 class="island push-0">Reservation</h5>
+  <img class="img-flex" src="/images/laundromate-reserve.jpg" alt="LaundroMate reservation screens">
+</div>
+
+<div class="pad-b">
+  <h5 class="island push-0">Cycle Configuration</h5>
+  <img class="img-flex" src="/images/laundromate-cycle-config.jpg" alt="LaundroMate cycle configuration">
+</div>
+
+<div class="pad-b">
+  <h5 class="island push-0">Payment</h5>
+  <img class="img-flex" src="/images/laundromate-payement.jpg" alt="LaundroMate payement">
+</div>
+
+<div class="pad-b">
+  <h5 class="island push-0">Notification & Unlock</h5>
+  <img class="img-flex" src="/images/laundromate-notification.jpg" alt="LaundroMate payement">
 </div>
 
 <div>
-  {% pattern cards/card-image-left heading="Interviews" text="During the interviews, participants were asked 9 questions. We asked participants things like, what concerns they had regarding using self-serve laundry services and factors that would significantly improve their experience. The main concerns that came up were about theft. They felt like there weren't any steps taken in preventing theft. Participants also expressed their struggles with the availability of washing machines. This indicated to us that our app would have to solve those concerns." image="/images/interview.jpg"%}
+  <h5 class="island push-0">Availability Alert</h5>
+  <img class="img-flex" src="/images/laundromate-alert.jpg" alt="LaundroMate availability alert">
 </div>
 
-<div>
-  {% pattern cards/card-image-right heading="The Features" text="With the answers given to us by our participants, we had a pretty clear list of problems that need to be solved. One of the things we solved was availability. We achieved this by giving users the ability to see if there are any machines available and reserve an available machine to lock it until the user gets to the laundry facility. To solve the issue of theft, we added a locking mechanism to the machine that would keep the machine locked even after the cycle is over. It can only be unlocked by the users with the machine reserved or with an emergency button." image="/images/features.jpg"%}
-</div>
-
-<div>
-  {% pattern cards/card-image-left heading="The Product" text="The smart product created to work in partnership with the app is a 2in1 washer/dryer that is connected to smartphones using the internet. The intention of this product is that apartment buildings and college/university residences would purchase the products for their shared laundry facility. These smart products could increase their revenue coming from the laundry facility since more residents would be inclined to use it since it solves their main concerns." image="/images/laundromate-product.jpg" %}
-</div>
-
-<div class="pad-t">
-  <div class="grid">
-    <div class="unit xs-1 s-1 m-1 l-1-3 gutter">
-      <h3 class="pink">The App</h3>
-      <p>The app that was created is called LaundroMate. LaundroMate helps users through every step of the self-serve laundry process, from before even leaving their residence to bringing back their clean laundry.</p>
-    </div>
-
-    <div class="unit xs-1 s-1 m-1 l-2-3">
-      <img class="img-flex" src="/images/laundromate-screens.jpg" alt="The machine view, the reserve screen, the configure cycle screen and the notification screen.">
-    </div>
-  </div>
-
-  <div class="max-length">
-    <!-- Insert Video -->
-  </div>
+<div class="pad-t-2 pad-b-2">
+  {% pattern cards/card-project-about-s-btn image="/images/interactive-icon.png" alt="interactive icon" intro="Interactive Prototype" info="To try out the interactive prototype, download the Adobe XD file, open with Adobe XD and press play.<br><br>If you don't have access to Adobe XD, watch the video in this folder for a demonstration." link="https://drive.google.com/drive/folders/1pQXeJm7ovHzGouGKfGIXZbkx6rZ20ihR?usp=sharing" link-name="Interactive Prototype + Video" %}
 </div>
 
 <script type="application/ld+json">
